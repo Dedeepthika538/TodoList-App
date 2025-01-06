@@ -1,11 +1,11 @@
-import React from 'react';
-import { TodoProvider } from './context/TodoContext';
-import TodoList from './components/TodoList';
+import './App.css';
 
-const App = () => (
-  <TodoProvider>
-    <TodoList />
-  </TodoProvider>
-);
+function App() {
+  return (
+    <div className="App">
+    Start your Code
+    </div>
+  );
+}
 
 export default App;
